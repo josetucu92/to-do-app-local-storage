@@ -11,16 +11,14 @@ function TaskTable({ tasks, toggleTask, showCompleted = false }) {
   };
 
   return (
-    <div>
-      <table>
+      <table className="table table-dark table-stripped table-bordered border-secondary">
         <thead>
-          <tr>
+          <tr className="table-secondary">
             <th>Tasks</th>
           </tr>
         </thead>
         <tbody>{taskTableRows(showCompleted)}</tbody>
       </table>
-    </div>
   );
 }
 
