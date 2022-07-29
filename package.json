@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://josetucu92.github.io/to-do-app-local-storage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
